@@ -1,0 +1,125 @@
+ /* #1f4e72a5/*/
+ * {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  
+}
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin : 0;
+  height : 100vh;
+   background-size: cover;
+   background-image: url(Photos/17/test.jpg);
+   /* background-image: linear-gradient(to bottom, #181b18, #2f3534bb); */
+
+  font-family: Arial ,sans-serif;
+}
+
+div {
+ 
+position:absolute;
+
+bottom: 40%;
+left: 38%;
+background-color: #ffffff;
+border-radius: 10px;
+padding: 20px;
+width : 400px;
+height: 200px;
+box-shadow: 0 0 10px rgba(0 , 0 ,0 , 0.1);
+
+}
+
+h1 , h2 , h3 {
+ 
+  color : rgb(7, 7, 80);
+}
+
+ /* Change the background color of the submit button on hover */
+
+label {
+
+ display: block;
+ margin-bottom: 5px;
+ font-style: italic;
+ 
+ /* font-weight:unset; */
+}
+
+
+input {
+  border-radius: 22px ;
+  width : 100%;
+  padding : 10px;
+  /* box-sizing: border-box; */
+
+}
+
+.btn {
+  margin-top: 10px;
+  width: 100%;
+  padding: 10px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+}
+.btn:hover{
+  background-color: #0056b3;
+}
+footer {
+
+  
+  flex-direction: column;
+  
+ 
+
+  margin: 300px;
+  color: rgb(113, 2, 119);
+  
+}
+
+nav {
+
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background: #333;
+  padding : 1rem;
+  
+}
+
+li {
+
+  list-style: none;
+  display: flex;
+}
+
+a{
+  text-decoration: none;
+  color: #fff;
+  transition: color 0.3s ease;
+
+}
+
+a:hover {
+
+  color: #ddd;
+}
+
+
+
+
+.menu-item {
+  padding: 10px;
+  border-bottom: 1px solid #444;
+  transition: transform 0.5s;
+}
+
+.menu-item:hover {
+  background-color: #555;
+}
